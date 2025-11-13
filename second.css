@@ -1,0 +1,71 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:lightpink
+}
+
+.wrapper {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color:plum;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+header h2 {
+  font-size: 40px;
+}
+
+header h1 {
+  font-size: 50px;
+  color:darkmagenta
+}
+
+.me {
+  text-align: center;
+  width: 30%;
+}
+
+.me img {
+  border: 10px solid purple;
+  border-radius: 3em;
+}
+
+.me figcaption {
+  font-size: 15px;
+  margin-top: .5em
+}
+
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+  font-size: 23px;
+  line-height: 1.4;
+  padding: 1em 3em 0 3em ;
+}
+
+footer {
+  background-color: rgb(238, 205, 238);
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  font-size: 35px;
+  color:darkmagenta
+}
+
+footer a:hover {
+  background-color: white;
+}
+
